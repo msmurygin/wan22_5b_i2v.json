@@ -1,4 +1,4 @@
-FROM runpod/worker-comfyui:5.3.0-base
+FROM runpod/worker-comfyui:5.5.1-base
 
 # Install required custom nodes
 RUN comfy node install comfyui-kjnodes --mode remote
